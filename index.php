@@ -58,7 +58,6 @@ $app->get('/admin/logout', function() {
 $app->get('/admin/users', function() {
 
 	User::verifyLogin();
-	//verifica se esta logado como admin//
 
 	$users = User::listAll();
 
@@ -73,7 +72,6 @@ $app->get('/admin/users', function() {
 $app->get('/admin/users/create', function() {
 
 	User::verifyLogin();
-	//verifica se esta logado como admin//
 
 	$page = new PageAdmin();
 
@@ -123,7 +121,7 @@ $app->post("/admin/users/create", function() {
 
 	$_POST["inadmin"] = (isset($_POST["inadmin"]))?1:0;
 
-	
+
 	$_POST['despassword'] = password_hash($_POST["despassword"], PASSWORD_DEFAULT, [
 
 		"cost"=>12
