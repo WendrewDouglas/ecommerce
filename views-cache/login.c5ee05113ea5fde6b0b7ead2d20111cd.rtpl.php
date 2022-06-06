@@ -27,7 +27,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-        <a href="/res/admin/index2.html"><b>Admin </b><img src="/res/site/img/logo.png"></a>
+        <a href="http://www.wdcommerce.com.br/"><b>Admin </b><img src="/res/site/img/logo.png"></a>
         
   </div>
   <!-- /.login-logo -->
@@ -68,7 +68,7 @@
     </div>
     <!-- /.social-auth-links -->
 
-    <a href="#">Esqueci minha senha</a><br>
+    <a href="/admin/forgot">Esqueci minha senha</a><br>
     <a href="/res/admin/register.html" class="text-center">Criar uma nova conta</a>
 
   </div>
