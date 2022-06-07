@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-about-us">
-                    <h2>Hcode Store</h2>
+                    <h2>WD-Commerce</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
                     <div class="footer-social">
                         <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -29,11 +29,8 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
-                        <li><a href="#">Categoria Um</a></li>
-                        <li><a href="#">Categoria Dois</a></li>
-                        <li><a href="#">Categoria Três</a></li>
-                        <li><a href="#">Categoria Quarto</a></li>
-                        <li><a href="#">Categoria Cinco</a></li>
+                        <?php require $this->checkTemplate("categories-menu");?>
+                        
                     </ul>                        
                 </div>
             </div>
